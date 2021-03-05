@@ -44,6 +44,9 @@ function update(event){
          direction = "down";
     }  
 }
+function callRestart(){
+    location.reload();
+}
 
 function iniciarJogo(){
     if(snake[0].x > 15 * box && direction == "right"){
